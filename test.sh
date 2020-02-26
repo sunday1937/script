@@ -80,7 +80,7 @@ do
 		if [[ $isGood == 1 ]]; then
 			echo "${LRED}${belleName:0:2} ${bellePercentFormat:0:4}% ${belleOpenPrice} ${belleCurrPrice}"
 		else
-			echo "${WHITE}${belleName:0:2} ${bellePercentFormat:0:5}% ${belleOpenPrice} ${belleCurrPrice}"
+			echo "${BLUE}${belleName:0:2} ${bellePercentFormat:0:5}% ${belleOpenPrice} ${belleCurrPrice}"
 		fi
 		# echo "${RED}${belleName:0:1} ${bellePercentFormat:0:3}% ${belleOpenPrice} ${belleCurrPrice}"
 		# echo ''
