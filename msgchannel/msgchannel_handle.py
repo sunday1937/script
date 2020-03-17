@@ -114,7 +114,7 @@ def statistics_average_time(rt_list):
 
 print('msgchannel handle start!')
 try:
-    result_file = open('./result1.json', 'r')
+    result_file = open('./json/rc_7_9.json', 'r')
     result_str = result_file.read()
     # print(result_str)
 
